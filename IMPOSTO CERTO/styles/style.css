@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Gill Sans, sans-serif;
+}
+
+body {
+    height: 100%;
+    /*background-image: linear-gradient(to bottom, #4682B4, #104E8B );*/
+    background:  -webkit-gradient(linear, left top, left bottom, from(#27408B), to(#4876FF));
+}
+
+@media only screen and (max-width: 768px) {
+    #Receita {
+        float: left;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 10vw;
+    }
+    #Receita img {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+    }
+    #Receita h2 {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 1vw;
+        text-align: center;
+        font-size: 5vw;
+        color: white;
+    }
+    #formulario {
+        float: left;
+        width: 70%;
+        height: 40vw;
+        margin-left: 15%;
+        margin-top: 10vw;
+        background-color: black;
+        border-radius: 1.5vw;
+        box-shadow: -5px 9px 13px 0px rgba(0, 0, 0, 0.4);
+    }
+    #form legend {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 3vw;
+        font-size: 3.5vw;
+        text-align: center;
+        color: white;
+    }
+    #form input {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 3vw;
+        font-size: 3.5vw;
+        text-align: center;
+        color: black;
+        background-color: rgba(240, 240, 240, 0.651);
+        border-radius: 0.5vw;
+    }
+    #button {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 3vw;
+        font-size: 3.5vw;
+        text-align: center;
+        color:white;
+        background-color: rgba(189, 189, 189, 0.651);
+        border-radius: 0.5vw;
+    }
+    #tabela {
+        display: none;
+        float: left;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 3w;
+        margin-bottom: 5vw;
+        background-color: black;
+        box-shadow: -5px 9px 13px 0px rgba(0, 0, 0, 0.4);
+        font-size: 2vw;
+        border-radius: 1vw;
+    }
+    #tabela table {
+        border-spacing: 0px;
+    }
+    td {
+        border: 0.15vw solid rgb(161, 161, 161);
+        border-bottom: 0.25vw solid rgb(161, 161, 161);
+        font-size: 2.5vw;
+        color: white;
+    }
+    #pessoas {
+        display: none;
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5vw;
+        text-align: center;
+        font-size: 5vw;
+        color: white;
+    }
+    #clean {
+        float: left;
+        width: 20%;
+        margin-left: 40%;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        font-size: 3.5vw;
+        text-align: center;
+        color:white;
+        background-color: rgba(189, 189, 189, 0.651);
+        border-radius: 0.5vw;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    #Receita {
+        float: left;
+        width: 18%;
+        margin-left: 41%;
+        margin-top: 1.5vw;
+    }
+    #Receita img {
+        float: left;
+        width: 100%;
+        margin-left: 0%;
+    }
+    #Receita h2 {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 0.5vw;
+        text-align: center;
+        font-size: 2vw;
+        color: white;
+    }
+    #formulario {
+        float: left;
+        width: 30%;
+        height: 19vw;
+        margin-left: 35%;
+        margin-top: 1.5vw;
+        background-color: black;
+        border-radius: 1.5vw;
+        box-shadow: -5px 9px 13px 0px rgba(0, 0, 0, 0.4);
+    }
+    #form legend {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 1vw;
+        font-size: 2vw;
+        text-align: center;
+        color: white;
+    }
+    #form input {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 1vw;
+        font-size: 1.8vw;
+        text-align: center;
+        color: black;
+        background-color: rgba(240, 240, 240, 0.651);
+        border-radius: 0.5vw;
+    }
+
+    #button {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 1vw;
+        font-size: 2vw;
+        text-align: center;
+        color: white;
+        background-color: rgba(189, 189, 189, 0.651);
+        border-radius: 0.5vw;
+    }
+    #tabela {
+        display: none;
+        float: left;
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 3w;
+        margin-bottom: 5vw;
+        background-color: black;
+        box-shadow: -5px 9px 13px 0px rgba(0, 0, 0, 0.4);
+        font-size: 2vw;
+        border-radius: 1vw;
+    }
+    #tabela table {
+        border-spacing: 0px;
+    }
+    td {
+        border: 0.15vw solid rgb(161, 161, 161);
+        border-bottom: 0.25vw solid rgb(161, 161, 161);
+        font-size: 1.5vw;
+        color: beige;
+    }
+    #pessoas {
+        display: none;
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5vw;
+        text-align: center;
+        font-size: 5vw;
+        color:white;
+    }
+    #clean {
+        float: left;
+        width: 30%;
+        margin-left: 35%;
+        margin-top: 0.5vw;
+        font-size: 1.5vw;
+        text-align: center;
+        color: white;
+        background-color: rgba(189, 189, 189, 0.651);
+        border-radius: 0.5vw;
+    }
+}
